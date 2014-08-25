@@ -1,0 +1,66 @@
+[root]
+name = "hexlet-cli"
+version = "0.0.1"
+dependencies = [
+ "color 0.0.1 (git+https://github.com/bjz/color-rs.git#bf739419e2d31050615c1ba1a395b474269a4b98)",
+ "docopt 0.6.0 (git+https://github.com/docopt/docopt.rs.git#fc7ba2f1a5a351f7874257d880223d2ff5c75d36)",
+ "docopt_macros 0.6.0 (git+https://github.com/docopt/docopt.rs.git#fc7ba2f1a5a351f7874257d880223d2ff5c75d36)",
+ "http 0.1.0-pre (git+https://github.com/chris-morgan/rust-http.git#b7f2fe742c01cb19a7d2873d9b96e005fcdc648c)",
+ "tar 0.0.1 (git+https://github.com/alexcrichton/tar-rs#689bbc003ae47feae5bc99c53b56736e4ad994ba)",
+]
+
+[[package]]
+name = "color"
+version = "0.0.1"
+source = "git+https://github.com/bjz/color-rs.git#bf739419e2d31050615c1ba1a395b474269a4b98"
+
+[[package]]
+name = "docopt"
+version = "0.6.0"
+source = "git+https://github.com/BurntSushi/docopt.rs#fc7ba2f1a5a351f7874257d880223d2ff5c75d36"
+
+[[package]]
+name = "docopt"
+version = "0.6.0"
+source = "git+https://github.com/docopt/docopt.rs.git#fc7ba2f1a5a351f7874257d880223d2ff5c75d36"
+
+[[package]]
+name = "docopt_macros"
+version = "0.6.0"
+source = "git+https://github.com/docopt/docopt.rs.git#fc7ba2f1a5a351f7874257d880223d2ff5c75d36"
+dependencies = [
+ "docopt 0.6.0 (git+https://github.com/BurntSushi/docopt.rs#fc7ba2f1a5a351f7874257d880223d2ff5c75d36)",
+]
+
+[[package]]
+name = "encoding"
+version = "0.1.0"
+source = "git+https://github.com/lifthrasiir/rust-encoding#a55053869726dc7b67560e5f25d18105ac316001"
+
+[[package]]
+name = "http"
+version = "0.1.0-pre"
+source = "git+https://github.com/chris-morgan/rust-http.git#b7f2fe742c01cb19a7d2873d9b96e005fcdc648c"
+dependencies = [
+ "openssl 0.0.0 (git+https://github.com/sfackler/rust-openssl.git#fec71293a7dba1a176a20b22acb5365d17ce8bcd)",
+ "url 0.1.0 (git+https://github.com/servo/rust-url#dfd4376edb9edd53f4a0e77e49189fa9e8c8c133)",
+]
+
+[[package]]
+name = "openssl"
+version = "0.0.0"
+source = "git+https://github.com/sfackler/rust-openssl.git#fec71293a7dba1a176a20b22acb5365d17ce8bcd"
+
+[[package]]
+name = "tar"
+version = "0.0.1"
+source = "git+https://github.com/alexcrichton/tar-rs#689bbc003ae47feae5bc99c53b56736e4ad994ba"
+
+[[package]]
+name = "url"
+version = "0.1.0"
+source = "git+https://github.com/servo/rust-url#dfd4376edb9edd53f4a0e77e49189fa9e8c8c133"
+dependencies = [
+ "encoding 0.1.0 (git+https://github.com/lifthrasiir/rust-encoding#a55053869726dc7b67560e5f25d18105ac316001)",
+]
+

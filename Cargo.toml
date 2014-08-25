@@ -1,0 +1,32 @@
+[package]
+
+name = "hexlet-cli"
+version = "0.0.1"
+authors = ["Andrew Kumanyaev <me@zzet.org>"]
+
+[[bin]]
+name = "hexlet"
+path = "src/hexlet.rs"
+
+[[bin]]
+name = "hexlet-lesson"
+path = "src/hexlet-lesson.rs"
+
+[[bin]]
+name = "hexlet-exercise"
+path = "src/hexlet-exercise.rs"
+
+[dependencies.color]
+git = "https://github.com/bjz/color-rs.git"
+
+[dependencies.docopt]
+git = "https://github.com/docopt/docopt.rs.git"
+
+[dependencies.docopt_macros]
+git = "https://github.com/docopt/docopt.rs.git"
+
+[dependencies.tar]
+git = "https://github.com/alexcrichton/tar-rs.git"
+
+[dependencies.http]
+git = "https://github.com/chris-morgan/rust-http.git"

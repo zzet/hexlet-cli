@@ -1,0 +1,4 @@
+/lesson_*
+/target/
+/hexlet-lesson
+*.sw?
